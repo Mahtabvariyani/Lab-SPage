@@ -161,8 +161,7 @@ h1 {
   z-index: 9;
   overflow: hidden;
   box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.3);
-  /* background-color: black; */
-  background: black;
+  background: transparent;
   backdrop-filter: blur(30px);
   animation: border-transform 7s linear infinite;
   transition: top 350ms 1100ms cubic-bezier(0.23, 1, 0.32, 1),
@@ -250,7 +249,7 @@ h1 {
 }
 .nav ul li a {
   font-family: Big Caslon, Book Antiqua, Palatino Linotype, Georgia, serif;
-  font-size: 9vh;
+  font-size: 5vh;
   text-transform: uppercase;
   line-height: 1.2;
   font-weight: 800;
