@@ -31,6 +31,10 @@ app.get('/bio', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'bio.html'));
 });
 
+app.get('/chat', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'chat.html'));
+});
+
 // Start the server
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
